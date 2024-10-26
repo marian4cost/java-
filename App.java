@@ -18,10 +18,10 @@ public class App{
         String textoCaixaAlta = texto.toUpperCase();
         System.out.println(textoCaixaAlta);
 
-        mostrarMeuNome();
+        mostrarMeuNome("mariana");
     }
 
-    private static void mostrarMeuNome(){
-        System.out.println("meu nome é mariana costa");
+    private static void mostrarMeuNome(String nome){
+        System.out.println("meu nome é " + nome);
     }
 }
