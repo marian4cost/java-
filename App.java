@@ -18,7 +18,13 @@ public class App{
         String textoCaixaAlta = texto.toUpperCase();
         System.out.println(textoCaixaAlta);
 
+        //METODOS
         mostrarMeuNome("mariana", 18);
+
+        //LAÇO DE REPETIÇÃO FOR
+        for (int i = 0; i < 3; i++) {
+            mostrarMeuNome("mariana", 18);
+        }
     }
 
     private static void mostrarMeuNome(String nome, int idade){
