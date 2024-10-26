@@ -11,5 +11,10 @@ public class App{
 
         //TIPOS NÃO PRIMITIVOS
         String texto = "mariana costa";
+        
+        //qual a diferença de um tipo primitivo para um não primitivo
+        //um tipo não primitivo pode ser um objetivo que pode receber um atributo 
+        //isso é um exemplo de atributo:
+        System.out.println(texto.charAt(0));
     }
 }
