@@ -4,5 +4,6 @@ public class App{
         double altura = 1.48;
         char letra = 'a';
         long inteiroGigante = 2147483648L; 
+        // sobre memória: int = 32 bits, double = 16 bits, char = 16 bits, long = 64 bits  
     }
 }
